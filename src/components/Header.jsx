@@ -1,3 +1,8 @@
 export default function Header() {
-  return <h1>Header</h1>;
+  return (
+    <header>
+      <img src="src/images/globe.png" alt="image of globe" />
+      <h1>my travel journal.</h1>
+    </header>
+  );
 }
